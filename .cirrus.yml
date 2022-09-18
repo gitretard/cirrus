@@ -4,14 +4,15 @@ env:
 
   
 
-task:
-  name: Build
-  timeout_in: 4h
+  persistent_worker:
+    labels:
+      name: AX61-2
+    isolation:
       container:
-        image: ubuntu
-        cpu: 24
-        memory: 120G
-        volumes:
+        image: apon77/aosp:cirrus
+        cpu: 2
+        memory: 4G
+        volume:
           - /home/cirrus/roms:/home/cirrus/roms
           - /home/cirrus/ccache:/home/cirrus/ccache
           - /home/cirrus/.config:/home/cirrus/.config 
