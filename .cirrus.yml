@@ -11,11 +11,7 @@ task:
       container:
         image: apon77/aosp:cirrus
         cpu: 64
-        memory: 128
-        volume:
-          - /home/cirrus/roms:/home/cirrus/roms
-          - /home/cirrus/ccache:/home/cirrus/ccache
-          - /home/cirrus/.config:/home/cirrus/.config 
+        memory: 128 
 - sudo apt-get update
 - sudo apt-get install tmate
 - ssh-keygen
