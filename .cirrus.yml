@@ -8,10 +8,6 @@ task:
 task:
   name: Build
   timeout_in: 4h
-  persistent_worker: key!
-    labels:
-      name: AX61-1
-    isolation:
       container:
         image: ubuntu
         cpu: 24
