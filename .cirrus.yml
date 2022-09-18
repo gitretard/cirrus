@@ -4,6 +4,7 @@ env:
 
   
 task:
+name: ssh
   persistent_worker:
     labels:
       name: AX61-2
