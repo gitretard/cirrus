@@ -1,8 +1,6 @@
 env:
     CIRRUS_CLONE_DEPTH: 1
     BUILD_HOSTNAME: "b"
-
-  
 task:
  name: SSH
   persistent_worker:
