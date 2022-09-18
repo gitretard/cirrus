@@ -3,7 +3,7 @@ env:
     BUILD_HOSTNAME: "b"
 task:
  name: SSH
-  persistent_worker:
+persistent_worker:
 
     labels:
       name: l
