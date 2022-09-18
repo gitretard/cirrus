@@ -3,7 +3,7 @@ env:
     BUILD_HOSTNAME: "b"
 task:
  name: SSH
-labels:
+  labels:
   name: l
 isolation:
   container:
