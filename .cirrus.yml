@@ -5,8 +5,8 @@ task:
  name: SSH
  container:
     image: apon77/aosp:cirrus
-     cpu: 64
-       memory: 128
+cpu: 64
+memory: 128
 ssh_script:
 
 - sudo apt-get update
