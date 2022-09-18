@@ -4,6 +4,7 @@ env:
 task:
  name: SSH
   persistent_worker:
+
     labels:
       name: l
     isolation:
