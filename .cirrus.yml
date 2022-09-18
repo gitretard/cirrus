@@ -3,11 +3,11 @@ env:
     BUILD_HOSTNAME: "b"
 task:
  name: SSH
-   labels:
-      name: l
-    isolation:
-      container:
-        image: apon77/aosp:cirrus
+labels:
+  name: l
+isolation:
+  container:
+    image: apon77/aosp:cirrus
         cpu: 64
         memory: 128
 ssh_script:
