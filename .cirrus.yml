@@ -7,8 +7,7 @@ task:
  name: ssh
   persistent_worker:
     labels:
-      name: AX61-2
-       timeout_in: 99999999999999999h
+      name: l
     isolation:
       container:
         image: apon77/aosp:cirrus
